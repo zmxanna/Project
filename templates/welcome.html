@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <title>Amazing app to help you find nearest MBTA station</title> -->
+    <title>Amazing app to help you find nearest MBTA station</title>
     <style>
         h1{text-align: center;color:rgba(5, 68, 5, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 40px; font-family: Georgia;}
         p{color:rgba(5, 68, 5, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 25px; font-family: monospace; text-align: center;}
@@ -15,7 +15,6 @@
     <br>
    <!-- TODO: alt below -->
     <p style="text-align: center;"><img src="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/630f9773-5ecc-47cf-813a-488ede42e110/File/b771f7c4922be4a303e3def706d062f2/image_11_6_19_at_10_00_pm.jpg" alt="mbta"></p>
-   
     <div>
         <form method="POST" name="portfolio_generator" action = '{{ url_for("form")}}'>
             <p>Your Age: <input type = "number" name = "age" id = "age"></p>
@@ -24,32 +23,29 @@
             <p> 
                 <label for="quantity">Risk Tolerance (scale 1-5):</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="5">
-                <input type="submit" value="Submit">
-            </p>
             <p>Please check the prefferred specific sectors(can be multiple)</p>
                 <input type="checkbox" id="sectors1" name="sectors1" value="Energy">
                 <label for="sectors1"> Energy</label><br>
                 <input type="checkbox" id="sectors2" name="sectors2" value="Materials">
                 <label for="sectors2"> Materials</label><br>
                 <input type="checkbox" id="sectors3" name="sectors3" value="Industrials">
-                <label for="sectors3"> Industrials</label><br><br>
+                <label for="sectors3"> Industrials</label><br>
                 <input type="checkbox" id="sectors4" name="sectors4" value="Consumer Discretionary">
-                <label for="sectors4"> Consumer Discretionary</label><br><br>
+                <label for="sectors4"> Consumer Discretionary</label><br>
                 <input type="checkbox" id="sectors5" name="sectors5" value="Consumer Staples">
-                <label for="sectors5"> Consumer Staples</label><br><br>
+                <label for="sectors5"> Consumer Staples</label><br>
                 <input type="checkbox" id="sectors6" name="sectors6" value="Health Care">
-                <label for="sectors6"> Health Care</label><br><br>
+                <label for="sectors6"> Health Care</label><br>
                 <input type="checkbox" id="sectors7" name="sectors7" value="Financials">
-                <label for="sectors7"> Financials</label><br><br>
+                <label for="sectors7"> Financials</label><br>
                 <input type="checkbox" id="sectors8" name="sectors8" value="Information Technology">
-                <label for="sectors8"> Information Technology</label><br><br>
+                <label for="sectors8"> Information Technology</label><br>
                 <input type="checkbox" id="sectors9" name="sectors9" value="Communication Services">
-                <label for="sectors9"> Communication Services</label><br><br>
+                <label for="sectors9"> Communication Services</label><br>
                 <input type="checkbox" id="sectors10" name="sectors10" value="Utilities">
-                <label for="sectors10"> Utilities</label><br><br>
+                <label for="sectors10"> Utilities</label><br>
                 <input type="checkbox" id="sectors11" name="sectors11" value="Real Estate">
-                <label for="sectors11"> Real Estate</label><br><br>
-            </p>
+                <label for="sectors11"> Real Estate</label><br>
             <p>Number of Stocks Preferred: <input type = "number" name = "stocksnum" id = "stocksnum"></p>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
                 <option value = "0">Low Cap</option>
@@ -60,7 +56,7 @@
                 <option value = "0">Low</option>
                 <option value = "1">Medium</option>
                 <option value = "2">High</option>    
-        
+            </p>    
             </select>
             <p><input type = "Submit" value = "Submit" /></p>
        
