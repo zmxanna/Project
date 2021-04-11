@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <title>Amazing app to help you find nearest MBTA station</title>
     <style>
-        h1{text-align: center;color:rgba(5, 68, 5, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 40px; font-family: Georgia;}
-        p{color:rgba(5, 68, 5, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 25px; font-family: monospace; text-align: center;}
-        div{background-color: rgb(194, 187, 172); width:60%; margin-left: auto; margin-right: auto;}
+        h1{text-align: center;color:rgba(4, 9, 105, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 50px; font-family: Georgia;}
+        p{color:rgba(4, 9, 105, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 20px; font-family: monospace; }
+        div{background-color: rgb(210, 226, 241); width:60%; margin-left: auto; margin-right: auto;}
         img{width:30%;}
     </style>
 </head>
 <body>
     <h1>Hello, welcome to our investment portfolio generator!</h1>
-    <br>
    <!-- TODO: alt below -->
     <p style="text-align: center;"><img src="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/630f9773-5ecc-47cf-813a-488ede42e110/File/b771f7c4922be4a303e3def706d062f2/image_11_6_19_at_10_00_pm.jpg" alt="mbta"></p>
     <div>
@@ -24,7 +23,6 @@
                 <label for="quantity">Risk Tolerance (scale 1-5):</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="5">
             <p>Preferred specific sectors(can be multiple)</p>
-                <center>
                 <input type="checkbox" id="sectors1" name="sectors1" value="Energy">
                 <label for="sectors1"> Energy</label><br>
                 <input type="checkbox" id="sectors2" name="sectors2" value="Materials">
@@ -47,7 +45,6 @@
                 <label for="sectors10"> Utilities</label><br>
                 <input type="checkbox" id="sectors11" name="sectors11" value="Real Estate">
                 <label for="sectors11"> Real Estate</label><br>
-                </center>
             <p>Number of Stocks Preferred: <input type = "number" name = "stocksnum" id = "stocksnum"></p>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
                 <option value = "0">Low Cap</option>
@@ -60,7 +57,7 @@
                 <option value = "2">High</option>    
             </p>    
             </select>
-            <p><input type = "Submit" value = "Submit" /></p>
+            <p><center><input type = "Submit" value = "Submit" /></center></p>
        
     </form>
     <div>
