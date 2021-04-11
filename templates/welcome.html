@@ -17,13 +17,14 @@
     <p style="text-align: center;"><img src="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/630f9773-5ecc-47cf-813a-488ede42e110/File/b771f7c4922be4a303e3def706d062f2/image_11_6_19_at_10_00_pm.jpg" alt="mbta"></p>
     <div>
         <form method="POST" name="portfolio_generator" action = '{{ url_for("form")}}'>
-            <p>Your Age: <input type = "number" name = "age" id = "age"></p>
-            <p>Capital Avaliable: <input type = "number" name = "capital" id = "capital"></p>
+            <p>Your Age: <input type = "number" name = "age" id = "age">
+            <p>Capital Avaliable: <input type = "number" name = "capital" id = "capital">
             <p>Lock-up Period (In Years): <input type="number" step="0.5" name = "time" id = "time"></p>
             <p> 
                 <label for="quantity">Risk Tolerance (scale 1-5):</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="5">
-            <p>Please check the prefferred specific sectors(can be multiple)</p>
+            <p>Preferred specific sectors(can be multiple)</p>
+                <center>
                 <input type="checkbox" id="sectors1" name="sectors1" value="Energy">
                 <label for="sectors1"> Energy</label><br>
                 <input type="checkbox" id="sectors2" name="sectors2" value="Materials">
@@ -46,12 +47,13 @@
                 <label for="sectors10"> Utilities</label><br>
                 <input type="checkbox" id="sectors11" name="sectors11" value="Real Estate">
                 <label for="sectors11"> Real Estate</label><br>
+                </center>
             <p>Number of Stocks Preferred: <input type = "number" name = "stocksnum" id = "stocksnum"></p>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
                 <option value = "0">Low Cap</option>
                 <option value = "1">Mid Cap</option>
                 <option value = "2">Large Cap</option>
-            </p>
+            <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
             <p>Beta Preference: <select name = "betapref" id = "betapref">
                 <option value = "0">Low</option>
                 <option value = "1">Medium</option>
