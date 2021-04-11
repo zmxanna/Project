@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Generator Results</title>
+</head>
+
+<body>
+    <h1 align="center">Portfolio Generator Results</h1>
+
+    <h2 align="center">Your Unique Profile and Investment Needs</h2>
+    <table border="1" bordercolor="#0000ff" align="center" bgcolor="#FFFFFF">
+        <tr>
+            <th align="center" valign="middle">Info</th>
+            <th align="center" valign="middle">User Input</th>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Age:</td>
+            <td align="center" valign="middle">{{age}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Capital Available:</td>
+            <td align="center" valign="middle">{{capital}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Lock-up Period:</td>
+            <td align="center" valign="middle">{{time}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Risk Tolerance:</td>
+            <td align="center" valign="middle">{{risk}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Specific Sectors:</td>
+            <td align="center" valign="middle">{{sectors}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Number of Stocks Preferred:</td>
+            <td align="center" valign="middle">{{stocksnum}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Market Cap Preference:</td>
+            <td align="center" valign="middle">{{marketcap}}</td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">Beta Preference:</td>
+            <td align="center" valign="middle">{{betapref}}</td>
+        </tr>
+    </table>
+
+    <h2 align="center">Your Generated Portfolio</h2>
+    <table border="1" bordercolor="#0000ff" align="center" bgcolor="#FFFFFF">
+       <tr>
+           <th align="center" valign="middle">Symbol</th>
+           <th align="center" valign="middle">Company</th>
+           <th align="center" valign="middle">Sector</th>
+           <th align="center" valign="middle">Cap Size</th>
+       </tr>
+       <tr>
+           <td align="center" valign="middle">{{stocksymbol}}</td>
+           <td align="center" valign="middle">{{stockname}}</td>
+           <td align="center" valign="middle">{{stocksector}}</td>
+           <td align="center" valign="middle">{{stocksize}}</td>
+       </tr>
+       <tr>
+           <td align="center" valign="middle">APPL</td>
+           <td align="center" valign="middle">Apple Inc</td>
+           <td align="center" valign="middle">Technology</td>
+           <td align="center" valign="middle">Large</td>
+       </tr>
+    </table>
+    <br>
+    <form align="center">
+        <input type="button" value="Return to Search Page" onclick="history.back()">
+    </form>
+
+</body>
+
+</html>
