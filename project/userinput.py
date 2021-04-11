@@ -16,7 +16,7 @@ This file extracts information from users, such as:
 from flask import Flask
 from flask import request
 from flask import render_template
-import project
+import model
 
 app = Flask(__name__)
 
