@@ -2,57 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Amazing app to help you find nearest MBTA station</title>
     <style>
         h1{text-align: center;color:rgba(4, 9, 105, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 50px; font-family: Georgia;}
         p{color:rgba(4, 9, 105, 0.945);text-shadow:1px 1px white ;font-weight: bold; font-size: 20px; font-family: monospace; }
-        div{background-color: rgb(210, 226, 241); width:60%; margin-left: auto; margin-right: auto;}
+        div{background-color: #d2e2f1; width:60%; margin-left: auto; margin-right: auto;}
         img{width:30%;}
     </style>
 </head>
 <body>
     <h1>Hello, welcome to our investment portfolio generator!</h1>
-    <p style="text-align: center;"><img src="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/630f9773-5ecc-47cf-813a-488ede42e110/File/b771f7c4922be4a303e3def706d062f2/image_11_6_19_at_10_00_pm.jpg"></p>
+   <!-- TODO: alt below -->
+    <p style="text-align: center;"><img src="https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/630f9773-5ecc-47cf-813a-488ede42e110/File/b771f7c4922be4a303e3def706d062f2/image_11_6_19_at_10_00_pm.jpg" alt="mbta"></p>
     <div>
-        <form method="POST" name="userinput" action = '{{ url_for("form")}}'>
+        <form method="POST" name="portfolio_generator" action = '{{ url_for("form")}}'>
             <p>Your Age: <input type = "number" name = "age" id = "age">
             <p>Capital Avaliable: <input type = "number" name = "capital" id = "capital">
             <p>Lock-up Period (In Years): <input type="number" step="0.5" name = "time" id = "time"></p>
             <p> 
-                <label for="quantity">Risk Tolerance (scale 1-5):</label>
-                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                <label for="risk">Risk Tolerance (scale 1-5):</label>
+                <input type="number" id="risk" name="risk" min="1" max="5">
             <p>Preferred specific sectors(can be multiple)</p>
-                <input type="checkbox" id="sectors1" name="sectors1" value="Energy">
+                <input type="checkbox" id="sectors1" name="sectors" value="Energy">
                 <label for="sectors1"> Energy</label><br>
-                <input type="checkbox" id="sectors2" name="sectors2" value="Materials">
+                <input type="checkbox" id="sectors2" name="sectors" value="Materials">
                 <label for="sectors2"> Materials</label><br>
-                <input type="checkbox" id="sectors3" name="sectors3" value="Industrials">
+                <input type="checkbox" id="sectors3" name="sectors" value="Industrials">
                 <label for="sectors3"> Industrials</label><br>
-                <input type="checkbox" id="sectors4" name="sectors4" value="Consumer Discretionary">
+                <input type="checkbox" id="sectors4" name="sectors" value="Consumer Discretionary">
                 <label for="sectors4"> Consumer Discretionary</label><br>
-                <input type="checkbox" id="sectors5" name="sectors5" value="Consumer Staples">
+                <input type="checkbox" id="sectors5" name="sectors" value="Consumer Staples">
                 <label for="sectors5"> Consumer Staples</label><br>
-                <input type="checkbox" id="sectors6" name="sectors6" value="Health Care">
+                <input type="checkbox" id="sectors6" name="sectors" value="Health Care">
                 <label for="sectors6"> Health Care</label><br>
-                <input type="checkbox" id="sectors7" name="sectors7" value="Financials">
+                <input type="checkbox" id="sectors7" name="sectors" value="Financials">
                 <label for="sectors7"> Financials</label><br>
-                <input type="checkbox" id="sectors8" name="sectors8" value="Information Technology">
+                <input type="checkbox" id="sectors8" name="sectors" value="Information Technology">
                 <label for="sectors8"> Information Technology</label><br>
-                <input type="checkbox" id="sectors9" name="sectors9" value="Communication Services">
+                <input type="checkbox" id="sectors9" name="sectors" value="Communication Services">
                 <label for="sectors9"> Communication Services</label><br>
-                <input type="checkbox" id="sectors10" name="sectors10" value="Utilities">
+                <input type="checkbox" id="sectors10" name="sectors" value="Utilities">
                 <label for="sectors10"> Utilities</label><br>
-                <input type="checkbox" id="sectors11" name="sectors11" value="Real Estate">
+                <input type="checkbox" id="sectors11" name="sectors" value="Real Estate">
                 <label for="sectors11"> Real Estate</label><br>
             <p>Number of Stocks Preferred: <input type = "number" name = "stocksnum" id = "stocksnum"></p>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
-                <option value = "0">Low Cap</option>
-                <option value = "1">Mid Cap</option>
-                <option value = "2">Large Cap</option>
+                <option value = "Low Cap">Low Cap</option>
+                <option value = "Mid Cap">Mid Cap</option>
+                <option value = "High Cap">Large Cap</option>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
             <p>Beta Preference: <select name = "betapref" id = "betapref">
-                <option value = "0">Low</option>
-                <option value = "1">Medium</option>
-                <option value = "2">High</option>    
+                <option value = "Low">Low</option>
+                <option value = "Medium">Medium</option>
+                <option value = "High">High</option>    
             </p>    
             </select>
             <p><center><input type = "Submit" value = "Submit" /></center></p>
