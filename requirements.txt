@@ -1,7 +1,6 @@
 Flask
 gunicorn
 bs4
-csv
 urllib.request
 random
 pandas
