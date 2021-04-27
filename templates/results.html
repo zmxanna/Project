@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio Generator Results</title>
+    <title>Portfolio Generator Investor Profile</title>
 </head>
 
 <body>
@@ -21,11 +21,11 @@
         </tr>
         <tr>
             <td align="center" valign="middle">Capital Available:</td>
-            <td align="center" valign="middle">{{capital}}</td>
+            <td align="center" valign="middle">{{capital}} USD</td>
         </tr>
         <tr>
             <td align="center" valign="middle">Lock-up Period:</td>
-            <td align="center" valign="middle">{{time}}</td>
+            <td align="center" valign="middle">{{time}} years</td>
         </tr>
         <tr>
             <td align="center" valign="middle">Risk Tolerance:</td>
@@ -36,43 +36,26 @@
             <td align="center" valign="middle">{{sectors}}</td>
         </tr>
         <tr>
-            <td align="center" valign="middle">Number of Stocks Preferred:</td>
-            <td align="center" valign="middle">{{stocksnum}}</td>
-        </tr>
-        <tr>
             <td align="center" valign="middle">Market Cap Preference:</td>
             <td align="center" valign="middle">{{marketcap}}</td>
         </tr>
         <tr>
-            <td align="center" valign="middle">Beta Preference:</td>
-            <td align="center" valign="middle">{{betapref}}</td>
+            <td align="center" valign="middle">Note:</td>
+            <td align="center" valign="middle">{{message}}</td>
         </tr>
-    </table>
-
-    <h2 align="center">Your Generated Portfolio</h2>
-    <table border="1" bordercolor="#040969f1" align="center" bgcolor="#d2e2f1">
-       <tr>
-           <th align="center" valign="middle">Symbol</th>
-           <th align="center" valign="middle">Company</th>
-           <th align="center" valign="middle">Sector</th>
-           <th align="center" valign="middle">Cap Size</th>
-       </tr>
-       <tr>
-           <td align="center" valign="middle">{{stocksymbol}}</td>
-           <td align="center" valign="middle">{{stockname}}</td>
-           <td align="center" valign="middle">{{stocksector}}</td>
-           <td align="center" valign="middle">{{stocksize}}</td>
-       </tr>
-       <tr>
-           <td align="center" valign="middle">APPL</td>
-           <td align="center" valign="middle">Apple Inc</td>
-           <td align="center" valign="middle">Technology</td>
-           <td align="center" valign="middle">Large</td>
-       </tr>
     </table>
     <br>
     <form align="center">
-        <input type="button" value="Return to Search Page" onclick="history.back()">
+        <input type="button" value="See Your Portfolio" onclick="document.location='./portfolio'">
+    </form>
+    <br>
+    <br>
+    <form align="center">
+        <input type="button" value="Edit Your Inputs Again" onclick="history.back()">
+    </form>
+    <br>
+    <form align="center">
+        <input type="button" value="Return to Search Page" onclick="document.location='./input'">
     </form>
 
 </body>
