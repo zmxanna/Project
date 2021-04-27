@@ -1,0 +1,12 @@
+Flask
+gunicorn
+bs4
+csv
+urllib.request
+random
+pandas
+numpy
+matplotlib.pyplot
+math
+yahoo_fin
+yahoo_fin.stock_info 
