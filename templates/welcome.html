@@ -20,9 +20,9 @@
             <p>Capital Avaliable: <input type = "number" name = "capital" id = "capital">
             <p>Lock-up Period (In Years): <input type="number" step="0.5" name = "time" id = "time"></p>
             <p> 
-                <label for="risk">Risk Tolerance (scale 1-5):</label>
-                <input type="number" id="risk" name="risk" min="1" max="5">
-            <p>Preferred specific sectors(can be multiple)</p>
+                <label for="risk">Risk Tolerance (scale 1-3):</label>
+                <input type="number" id="risk" name="risk" min="1" max="3">
+            <p>Preferred specific sectors(can select up to 2, at least 37.5% of your portfolio will be allocated to sectors selected)</p>
                 <input type="checkbox" id="sectors1" name="sectors" value="Energy">
                 <label for="sectors1"> Energy</label><br>
                 <input type="checkbox" id="sectors2" name="sectors" value="Materials">
@@ -45,17 +45,11 @@
                 <label for="sectors10"> Utilities</label><br>
                 <input type="checkbox" id="sectors11" name="sectors" value="Real Estate">
                 <label for="sectors11"> Real Estate</label><br>
-            <p>Number of Stocks Preferred: <input type = "number" name = "stocksnum" id = "stocksnum"></p>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
                 <option value = "Low Cap">Low Cap</option>
                 <option value = "Mid Cap">Mid Cap</option>
                 <option value = "High Cap">Large Cap</option>
             <p>Market Cap Preference: <select name = "marketcap" id = "marketcap">
-            <p>Beta Preference: <select name = "betapref" id = "betapref">
-                <option value = "Low">Low</option>
-                <option value = "Medium">Medium</option>
-                <option value = "High">High</option>    
-            </p>    
             </select>
             <p><center><input type = "Submit" value = "Submit" /></center></p>
        
