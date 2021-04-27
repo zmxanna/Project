@@ -1,4 +1,7 @@
 Flask
 gunicorn
-bs4
+beautifulsoup4
+pandas
+numpy
+matplotlib
 yahoo_fin

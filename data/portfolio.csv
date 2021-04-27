@@ -1,17 +1,17 @@
 Ticker,Company Name,Sector,Market Cap,Market Cap($),Beta,PE,Price,52 Week Range,1y Target,Weight(%),Est Shares,Potential Upside(%)
-HCC,Warrior Met Coal Inc.,Materials,Small Cap,938.671M,1.21,nan,17.94,10.02 - 25.90,23.0,6.25,35.0,28.21
-ABCB,Ameris Bancorp,Financials,Small Cap,3.479B,1.45,9.73,51.42,17.12 - 57.81,58.5,6.25,12.0,13.77
-CUZ,Cousins Properties Inc,Real Estate,Mid Cap,5.592B,1.1,22.9,36.6,22.99 - 38.15,40.0,6.25,17.0,9.29
-LOW,Lowe's Cos.,Consumer Discretionary,Large Cap,144.973B,1.36,25.7,199.19,102.31 - 208.98,204.96,6.25,3.0,2.9
-AKR,Acadia Realty Trust,Real Estate,Small Cap,1.766B,1.49,nan,20.81,9.10 - 21.56,21.17,6.25,30.0,1.73
-PBCT,People's United Financial,Financials,Large Cap,7.708B,1.23,35.16,18.18,9.74 - 19.40,18.4,6.25,34.0,1.21
-XRAY,Dentsply Sirona,Health Care,Large Cap,14.457B,0.93,nan,66.31,36.12 - 66.92,66.93,6.25,9.0,0.94
-TMP,Tompkins Financial Corporation,Financials,Small Cap,1.165B,0.74,15.19,78.97,53.32 - 92.80,79.5,6.25,8.0,0.67
-LSI,Life Storage Inc,Real Estate,Mid Cap,7.19B,0.29,44.2,94.15,55.00 - 95.86,94.5,6.25,7.0,0.37
-EVTC,EVERTEC Inc.,Information Technology,Small Cap,2.977B,1.01,28.17,40.29,24.04 - 42.35,40.29,6.25,16.0,-0.0
-ILPT,Industrial Logistics Properties Trust,Real Estate,Small Cap,1.635B,0.96,19.32,24.34,15.09 - 26.20,24.25,6.25,26.0,-0.37
-CBRL,Cracker Barrel,Consumer Discretionary,Mid Cap,3.975B,1.5,83.41,168.07,77.05 - 178.82,167.38,6.25,4.0,-0.41
-ESS,Essex Property Trust Inc.,Real Estate,Large Cap,19.274B,0.74,34.17,296.88,186.30 - 300.73,288.16,6.25,2.0,-2.94
-CRS,Carpenter Technology,Materials,Small Cap,1.993B,2.31,nan,41.84,15.90 - 48.06,38.0,6.25,15.0,-9.18
-BCC,Boise Cascade Company,Industrials,Small Cap,2.657B,2.05,15.39,68.32,26.61 - 68.99,57.5,6.25,9.0,-15.84
-IRM,Iron Mountain Incorporated,Real Estate,Large Cap,11.549B,0.8,33.71,40.08,21.54 - 41.32,32.86,6.25,16.0,-18.01
+DVN,Devon Energy,Energy,Large Cap,14.688B,3.35,nan,21.7,7.73 - 26.13,30.7,6.25,29.0,41.47
+ATVI,Activision Blizzard,Communication Services,Large Cap,71.378B,0.64,32.67,92.13,62.34 - 104.53,113.29,6.25,7.0,22.97
+CYTK,Cytokinetics Incorporated,Health Care,Small Cap,1.836B,1.35,nan,26.71,13.87 - 30.14,31.36,6.25,23.0,17.41
+CTS,CTS Corporation,Information Technology,Small Cap,1.007B,0.73,29.49,31.26,18.17 - 37.26,36.33,6.25,20.0,16.22
+FHN,First Horizon National Corp,Financials,Mid Cap,9.92B,1.53,8.74,18.2,6.93 - 18.42,20.73,6.25,34.0,13.9
+FCPT,Four Corners Property Trust Inc.,Real Estate,Small Cap,2.278B,0.89,27.69,29.9,16.34 - 30.42,32.8,6.25,21.0,9.7
+SBAC,SBA Communications,Real Estate,Large Cap,32.376B,nan,239.96,296.35,232.88 - 328.37,324.33,6.25,2.0,9.44
+INFO,IHS Markit,Industrials,Large Cap,44.866B,0.96,79.37,105.88,63.95 - 107.37,112.38,6.25,6.0,6.14
+JBHT,J. B. Hunt Transport Services,Industrials,Large Cap,17.845B,1.04,32.91,168.87,95.30 - 178.40,178.67,6.25,4.0,5.8
+CNXC,Concentrix Corp,Information Technology,Mid Cap,8.117B,nan,nan,159.61,80.00 - 163.28,167.5,6.25,4.0,4.94
+FCX,Freeport-McMoRan Inc.,Materials,Large Cap,56.607B,2.12,31.58,38.65,7.81 - 39.84,39.29,6.25,16.0,1.66
+POST,Post Holdings Inc,Consumer Staples,Mid Cap,7.281B,0.79,nan,113.11,81.38 - 113.61,114.9,6.25,6.0,1.58
+IDXX,Idexx Laboratories,Health Care,Large Cap,47.833B,0.86,83.25,558.6,263.95 - 573.99,565.83,6.25,1.0,1.29
+SSD,Simpson Manufacturing Company,Industrials,Mid Cap,4.908B,1.24,26.46,113.0,65.51 - 113.31,108.5,6.25,6.0,-3.98
+PLCE,The Children's Place Inc.,Consumer Discretionary,Small Cap,1.101B,2.27,nan,76.96,17.78 - 85.59,71.6,6.25,8.0,-6.96
+NUE,Nucor Corp.,Materials,Large Cap,24.068B,1.43,14.92,80.43,35.75 - 82.76,73.73,6.25,8.0,-8.33
