@@ -1,0 +1,17 @@
+Ticker,Company Name,Sector,Market Cap,Market Cap($),Beta,PE,Price,52 Week Range,1y Target,Weight(%),Est Shares,Potential Upside(%)
+HCC,Warrior Met Coal Inc.,Materials,Small Cap,938.671M,1.21,nan,17.94,10.02 - 25.90,23.0,6.25,35.0,28.21
+ABCB,Ameris Bancorp,Financials,Small Cap,3.479B,1.45,9.73,51.42,17.12 - 57.81,58.5,6.25,12.0,13.77
+CUZ,Cousins Properties Inc,Real Estate,Mid Cap,5.592B,1.1,22.9,36.6,22.99 - 38.15,40.0,6.25,17.0,9.29
+LOW,Lowe's Cos.,Consumer Discretionary,Large Cap,144.973B,1.36,25.7,199.19,102.31 - 208.98,204.96,6.25,3.0,2.9
+AKR,Acadia Realty Trust,Real Estate,Small Cap,1.766B,1.49,nan,20.81,9.10 - 21.56,21.17,6.25,30.0,1.73
+PBCT,People's United Financial,Financials,Large Cap,7.708B,1.23,35.16,18.18,9.74 - 19.40,18.4,6.25,34.0,1.21
+XRAY,Dentsply Sirona,Health Care,Large Cap,14.457B,0.93,nan,66.31,36.12 - 66.92,66.93,6.25,9.0,0.94
+TMP,Tompkins Financial Corporation,Financials,Small Cap,1.165B,0.74,15.19,78.97,53.32 - 92.80,79.5,6.25,8.0,0.67
+LSI,Life Storage Inc,Real Estate,Mid Cap,7.19B,0.29,44.2,94.15,55.00 - 95.86,94.5,6.25,7.0,0.37
+EVTC,EVERTEC Inc.,Information Technology,Small Cap,2.977B,1.01,28.17,40.29,24.04 - 42.35,40.29,6.25,16.0,-0.0
+ILPT,Industrial Logistics Properties Trust,Real Estate,Small Cap,1.635B,0.96,19.32,24.34,15.09 - 26.20,24.25,6.25,26.0,-0.37
+CBRL,Cracker Barrel,Consumer Discretionary,Mid Cap,3.975B,1.5,83.41,168.07,77.05 - 178.82,167.38,6.25,4.0,-0.41
+ESS,Essex Property Trust Inc.,Real Estate,Large Cap,19.274B,0.74,34.17,296.88,186.30 - 300.73,288.16,6.25,2.0,-2.94
+CRS,Carpenter Technology,Materials,Small Cap,1.993B,2.31,nan,41.84,15.90 - 48.06,38.0,6.25,15.0,-9.18
+BCC,Boise Cascade Company,Industrials,Small Cap,2.657B,2.05,15.39,68.32,26.61 - 68.99,57.5,6.25,9.0,-15.84
+IRM,Iron Mountain Incorporated,Real Estate,Large Cap,11.549B,0.8,33.71,40.08,21.54 - 41.32,32.86,6.25,16.0,-18.01

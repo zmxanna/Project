@@ -37,18 +37,21 @@ def parse(html):
             if cap == "4":
                 symbol = fields[1].text.rstrip()
                 name = fields[0].text.replace(",", "").strip()
-                sector = fields[2].text.rstrip()                
+                sector = fields[2].text.rstrip()
+                marketcap = "Mid Cap"             
             elif cap == "6":
                 symbol = fields[1].text.rstrip()
                 name = fields[0].text.replace(",", "").strip()
                 sector = fields[2].text.rstrip()
+                marketcap = "Small Cap"                  
             else:
                 symbol = fields[0].text.rstrip()
                 name = fields[1].text.replace(",", "")
                 sector = fields[3].text.rstrip()
-            data.append([symbol, name, sector])
+                marketcap = "Large Cap"          
+            data.append([symbol, name, sector, marketcap])
 
-    header = ["Symbol", "Name", "Sector"]
+    header = ["Symbol", "Name", "Sector", "Market Cap"]
     file_name = "./data/"
     largecap_file = "largecap.csv"
     midcap_file = "midcap.csv"
