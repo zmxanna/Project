@@ -70,7 +70,7 @@ def generate_port(capital, risk, sectors, marketcap):
     
     if len(sectors) == 1:
     # allocate 2 stocks in preferred sector per market cap category
-        with open("./data/largecap.csv","r") as large:
+        with open("./data/largecap.csv","r", encoding='utf8', errors='ignore') as large:
             readerLarge = csv.reader(large)
             rows = list(readerLarge)
             rowLarge = len(rows)
@@ -89,7 +89,7 @@ def generate_port(capital, risk, sectors, marketcap):
             for eachnum in listLarge:
                 port.append(rows[eachnum-1])
             
-        with open("./data/midcap.csv","r") as mid:
+        with open("./data/midcap.csv","r", encoding='utf8', errors='ignore') as mid:
             readerMid = csv.reader(mid)
             rows = list(readerMid)
             rowMid = len(rows)
@@ -108,7 +108,7 @@ def generate_port(capital, risk, sectors, marketcap):
             for eachnum in listMid:
                 port.append(rows[eachnum-1])
  
-        with open("./data/smallcap.csv","r") as small:
+        with open("./data/smallcap.csv","r", encoding='utf8', errors='ignore') as small:
             readerSmall = csv.reader(small)
             rows = list(readerSmall)
             rowSmall = len(rows)
@@ -129,7 +129,7 @@ def generate_port(capital, risk, sectors, marketcap):
 
     elif len(sectors) >= 2:
     # allocate 1 stock in each of the first two preferred sectors per market cap category when two or more preferred sectors are selected
-        with open("./data/largecap.csv","r") as large:
+        with open("./data/largecap.csv","r", encoding='utf8', errors='ignore') as large:
             readerLarge = csv.reader(large)
             rows = list(readerLarge)
             rowLarge = len(rows)
@@ -154,7 +154,7 @@ def generate_port(capital, risk, sectors, marketcap):
             for eachnum in listLarge:
                 port.append(rows[eachnum-1])
             
-        with open("./data/midcap.csv","r") as mid:
+        with open("./data/midcap.csv","r", encoding='utf8', errors='ignore') as mid:
             readerMid = csv.reader(mid)
             rows = list(readerMid)
             rowMid = len(rows)
@@ -179,7 +179,7 @@ def generate_port(capital, risk, sectors, marketcap):
             for eachnum in listMid:
                 port.append(rows[eachnum-1])
  
-        with open("./data/smallcap.csv","r") as small:
+        with open("./data/smallcap.csv","r", encoding='utf8', errors='ignore') as small:
             readerSmall = csv.reader(small)
             rows = list(readerSmall)
             rowSmall = len(rows)
@@ -206,7 +206,7 @@ def generate_port(capital, risk, sectors, marketcap):
     
     else:
     # generate at random across all sectors
-        with open("./data/largecap.csv","r") as large:
+        with open("./data/largecap.csv","r", encoding='utf8', errors='ignore') as large:
             readerLarge = csv.reader(large)
             rows = list(readerLarge)
             rowLarge = len(rows)
@@ -218,7 +218,7 @@ def generate_port(capital, risk, sectors, marketcap):
                 port.append(rows[eachnum-1])
 
             
-        with open("./data/midcap.csv","r") as mid:
+        with open("./data/midcap.csv","r", encoding='utf8', errors='ignore') as mid:
             readerMid = csv.reader(mid)
             rows = list(readerMid)
             rowMid = len(rows)
@@ -230,7 +230,7 @@ def generate_port(capital, risk, sectors, marketcap):
                 port.append(rows[eachnum-1])        
 
 
-        with open("./data/smallcap.csv","r") as small:
+        with open("./data/smallcap.csv","r", encoding='utf8', errors='ignore') as small:
             readerSmall = csv.reader(small)
             rows = list(readerSmall)
             rowSmall = len(rows)
@@ -258,7 +258,7 @@ def generate_port(capital, risk, sectors, marketcap):
 
     # store all information in portfolio.csv
     header = ["Ticker", "Company Name", "Sector", "Market Cap", "Market Cap($)", "Beta", "PE", "Price", "52 Week Range", "1y Target", "Weight(%)", "Est Shares", "Potential Upside(%)"]
-    with open("./data/portfolio.csv", "w") as output:
+    with open("./data/portfolio.csv", "w", encoding='utf8', errors='ignore') as output:
         writer = csv.writer(output)
         writer.writerow(header)
         writer.writerows(finalport)
